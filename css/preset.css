@@ -28,6 +28,8 @@ a {
 
 .hero-title, 
 .hero-text,
+.footer-bottom a:hover,
+.footer-bottom a:focus,
 a:hover,
 a:focus {
     color: #1DB954;

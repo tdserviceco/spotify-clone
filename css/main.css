@@ -160,3 +160,29 @@ footer .footer-container {
     margin-left: 14px;
 }
 
+.footer-bottom .copyright-links {
+    color: #919496;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-bottom .links ul {
+    display: flex;
+}
+
+.footer-bottom .links li {
+    font-size: 0.7em;
+    padding: 0 10px;
+}
+
+.footer-bottom a {
+    color: #919496;
+}
+
+.footer-bottom .copyright {
+    font-size: 0.7em;
+}
+
