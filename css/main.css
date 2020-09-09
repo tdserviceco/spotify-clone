@@ -1,8 +1,8 @@
 @import "preset.css";
 
 header {
-    background: #000;
-    height: 80px;
+    background: var(--black);
+    height: var(--height-header);
     position: fixed;
     top: 0;
 }
@@ -43,7 +43,7 @@ header {
     content: '|';
     width: 10%;
     height: 70%;
-    background: #fff;
+    background: var(--white);
     position: absolute;
 }
 
@@ -83,7 +83,7 @@ main .hero-container .container-content .hero-text {
 }
 
 footer {
-    background: #000;
+    background: var(--black);
     width: 100%;
 }
 
@@ -103,8 +103,8 @@ footer .footer-container {
 }
 
 .footer-top .footer-nav {
-    flex: 3;
-    color: #919496;
+    flex: 2;
+    color: var(--grey);
     display: flex;
     justify-content: space-between;
     text-transform: capitalize;
@@ -126,7 +126,7 @@ footer .footer-container {
 
 .footer-social-media .social-box a {
     position: relative;
-    background: #222326;
+    background: var(--smooth-black);
     width: 50px;
     font-size: 30px;
     padding: 30px;
@@ -161,7 +161,7 @@ footer .footer-container {
 }
 
 .footer-bottom .copyright-links {
-    color: #919496;
+    color: var(--grey);
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
@@ -179,7 +179,7 @@ footer .footer-container {
 }
 
 .footer-bottom a {
-    color: #919496;
+    color: var(--grey);
 }
 
 .footer-bottom .copyright {

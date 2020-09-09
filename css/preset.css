@@ -5,6 +5,17 @@
     padding: 0;
 }
 
+:root {
+    --size-max: 1170px;
+    --green: #1DB954;
+    --white: #fff;
+    --grey: #919496;
+    --blue: #2940a8;
+    --black: #000;
+    --smooth-black: #222326;
+    --height-header: 80px;
+}
+
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -15,7 +26,7 @@ ul, li {
 
 .container {
     margin: 0 auto;
-    max-width: 1170px;
+    max-width: var(--size-max);
     height: 100%;
     padding: 0 15px;
 }
@@ -32,7 +43,7 @@ a {
 .footer-bottom a:focus,
 a:hover,
 a:focus {
-    color: #1DB954;
+    color: var(--green);
 }
 
 header,
@@ -43,24 +54,24 @@ footer {
 
 
 .btn {
-    color: #2940a8;
+    color: var(--blue);
     border-radius: 50px;
     font-weight: bold;
     border: none;
     display: inline-block;
-    background: #1DB954;
+    background: var(--green);
     padding: 16px 40px 16px;
     text-transform: uppercase;
 }
 
 .btn:hover,
 .btn:focus {
-    background: #fff;
+    background: var(--white);
     transition: background 300ms ease-in-out;
 }
 
 .logo{
     height: 40px;
     width: 132px;
-    fill: #fff;
+    fill: var(--white);
 }
